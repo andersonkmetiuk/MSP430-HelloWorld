@@ -19,8 +19,6 @@ For Linux you might need to run this command
 sudo apt-get install python3-venv
 ```
 
-You can check this [repo](https://github.com/platformio/platform-timsp430) out for some examples.
-
 ## Pin Reference from pins_energia.h
 
 ```
@@ -134,6 +132,9 @@ static const uint8_t TEMPSENSOR = 128 + 10; // depends on chip
 
 #ifdef ARDUINO_MAIN
 ```
+## Examples
+
+You can check this [repo](https://github.com/platformio/platform-timsp430) out for some examples.
 
 ### Blink
 
